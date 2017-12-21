@@ -1,0 +1,33 @@
+
+h1{
+  text-align: center; 
+}
+
+.sideHead{ 
+  text-align: center;
+}
+
+#sidebar {
+    margin-left: 0;
+    min-width: 280px;
+}
+
+
+@media only screen and (min-width: 576px) {
+  
+  .about {
+    max-width: 200px;
+    margin: 0;
+  }
+
+    .fixed {
+        position: fixed;
+        left: 0;
+        max-width: 280px;
+        margin: 20px;
+    }
+
+    #sidebar {
+        max-width: 280px;
+    }
+}
