@@ -1,5 +1,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	background-image: url('../images/circles-light.png');
+  background-repeat: repeat;
 }
 h3, {
 	margin-top: 15px;
@@ -88,48 +90,9 @@ i {
 .nav li {
 	display: inline;
 }
-.navbar-brand {
-	text-align: center;
-}
-@media only screen and (max-width: 768px) {
-	h1, h2, .profile {
-		text-align: center;
-	}
-}
-@media only screen and (min-width: 550px) {
-	.contents {
-		margin-left: 0;
-		width: 49%;
-	}
-}
-@media only screen and (min-width: 550px) {
-	.contents-right {
-		float: right;
-		width: 49%;
-	}
-}
-@media only screen and (min-width: 550px) {
-	.images-right {
-		float: right;
-		width: 49%;
-	}
-}
-@media only screen and (min-width: 550px) {
-	.images-right img {
-		float: right;
-	}
-}
-@media only screen and (min-width: 550px) {
-	.images-left {
-		float: left;
-		width: 49%;
-	}
-}
-@media only screen and (min-width: 550px) {
-	.images-left img {
-		float: left;
-	}
-}
+
+
+
 .project-link {
 	display: inline-block;
 	width: 107px;
