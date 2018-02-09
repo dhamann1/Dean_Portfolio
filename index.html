@@ -4,121 +4,88 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
-	<link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<script src="https://use.fontawesome.com/90da54916c.js">
-	</script>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<title>Dean Hamann</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
-
-
-	<nav class="navbar sticky-top navbar-light bg-light">
-		<ul class="list-inline text-center pt-2">
-			<li class="list-inline-item">
-				<a href="mailto:hamann.dean@gmail.com"><span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></a>
-			</li>
-			<li class="list-inline-item">
-				<a href="https://www.linkedin.com/in/hamanndean/" target="_blank"><span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a>
-			</li>
-			<li class="list-inline-item">
-				<a href="https://github.com/dhamann1" target="_blank"><span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a>
-			</li>
-		</ul>
-	</nav>
-
-
-
-	
-	<div class="container">
+	<div class="header">
+		<div class="profile-pic-container"><img class="profile-pic" src="./assets/images/dean_headshot.png"></div>
+		<div class="info-container">
+			<h4><strong>Dean Hamann</strong></h4>
+			<h5 class="text-muted">Front End Developer</h5>
+			<div class="icon-flex">
+				<div>
+					<a href="https://github.com/dhamann1"><span class="fa fa-github fa-2x icon"></span></a>
+				</div>
+				<div>
+					<a href="https://www.linkedin.com/in/hamanndean/"><span class="fa fa-linkedin fa-2x icon"></span></a>
+				</div>
+				<div>
+					<a href="mailto:hamann.dean@gmail.com"><span class="fa fa-envelope fa-2x icon"></span></a>
+				</div>
+			</div>
+		</div>
+	</div><!-- Technical Skills -->
+	<div class="container-fluid" id="techStack">
 		<div class="row">
-			<div class="col-sm-6">
-				<div class="page-header">
-					<h1 class="text-uppercase">Dean<br>
-					Hamann<br></h1>
-				</div>
+			<div class="col-md" id="tech">
+				<h2 class="font-weight-bold">Design</h2><i class="devicon-html5-plain-wordmark colored" id="techSkills"></i> <i class="devicon-css3-plain-wordmark colored" id="techSkills"></i> <i class="devicon-bootstrap-plain-wordmark colored" id="techSkills"></i> <i class="devicon-sass-original colored" id="techSkills"></i>
+			</div>
+			<div class="col-md" id="tech">
+				<h2 class="font-weight-bold">Code</h2><i class="devicon-javascript-plain colored" id="techSkills"></i> <i class="devicon-react-original-wordmark colored" id="techSkills"></i> <i class="devicon-rails-plain-wordmark colored" id="techSkills"></i> <i class="devicon-nodejs-plain-wordmark colored" id="techSkills"></i> <i class="devicon-express-original-wordmark colored" id="techSkills"></i>
+			</div>
+			<div class="col-md" id="tech">
+				<h2 class="font-weight-bold">Databases</h2><i class="devicon-postgresql-plain-wordmark colored" id="techSkills"></i> <i class="devicon-mongodb-plain-wordmark colored" id="techSkills"></i>
 			</div>
 		</div>
-		<div class="row" id="title">
-			<div class="col-md-2 column">
-				<h2 class="pTitle">About</h2>
+	</div><!-- Projects -->
+	<h2 class="font-weight-bold">Featured Work</h2>
+	<div class="container">
+		<div class="project-section">
+			<div class="row">
+				<div class="col-lg-4 text-center">
+					<h2 class="font-weight-bold">FilmPicks</h2>
+					<p class="text-justify mx-4" id="projectText">FilmPicks is an application that allows users to search and favorite movies through The Movie Database (TMDb) API. The app was built using the MERN (MongoDB, Express, React, Node.js) Stack.</p><a class="btn btn-primary text-white" href="https://film-picks.herokuapp.com/" target="_blank">Visit App</a> <a class="btn btn-primary text-white" href="https://github.com/dhamann1/FilmPicks" target="_blank">GitHub Repo</a>
+				</div>
+				<div class="col-lg-8"><img src="https://i.imgur.com/8TDd2N6.png"></div>
 			</div>
 		</div>
-		<div class="row" id="aboutInfo">
-			<section class="col-md-7 column" id="about">
-				<h3 class="leading">Web Developer</h3>
-				<p class="leading">Hello, I'm a web developer from Los Angeles, CA. Previously I worked as a business development representative for a tech company. I enjoyed collaborating with our software engineers in order to provide technical demonstrations that matched potential clients’ needs. I love learning and trying out new ideas. Currently I spend most of my time sharpening my JavaScript skills. When I'm not aroud the computer I enjoy running and hiking.</p>
-			</section>
-			<div class="col-sm-4">
-				<p class="profile"><img alt="Dean Hamann" class="img-circle" src="./images/dean_headshot.png"></p>
+		<div class="project-section">
+			<div class="row">
+				<div class="col-lg-4 order-lg-8 text-center">
+					<h2 class="font-weight-bold">WeMeet</h2>
+					<p class="text-justify mx-4" id="projectText">WeMeet is an application that allows people to create and join events based on certain interests and discuss with other users about the event. WeMeet was built using Ruby on Rails and Bootstrap.</p><a class="btn btn-primary text-white" href="https://murmuring-brook-31535.herokuapp.com/events" target="_blank">Visit App</a> <a class="btn btn-primary text-white" href="https://github.com/dhamann1/WeMeet" target="_blank">GitHub Repo</a>
+				</div>
+				<div class="col-lg-8 order-lg-4"><img src="https://imgur.com/O1dePLt.png"></div>
 			</div>
 		</div>
-		<div class="row" id="title">
-			<div class="col-md-2 column">
-				<h2 class="pTitle">Skills</h2>
+		<div class="project-section">
+			<div class="row">
+				<div class="col-lg-4 text-center">
+					<h2 class="font-weight-bold">Don't Think, Just Eat</h2>
+					<p class="text-justify mx-4" id="projectText">Don't Think, Just Eat is an application allows users to select a restaurant within their specified location. Users are able to bookmark their favorite restaurants they've visited and save notes for future reference. The app utilizes both the Yelp Fusion API and Google Maps API. Don't Think, Just Eat was built using MongoDB, Express, Node, Javascript and Materialize.</p><a class="btn btn-primary text-white" href="https://dtje.herokuapp.com/" target="_blank">Visit App</a> <a class="btn btn-primary text-white" href="https://github.com/dhamann1/dtje" target="_blank">GitHub Repo</a>
+				</div>
+				<div class="col-lg-8"><img src="https://imgur.com/0Dx5WT6.png"></div>
 			</div>
 		</div>
-		<div class="row" id="aboutInfo">
-			<div class="user">
-				<div class="tech">
-					<h2>Design</h2><i class="devicon-html5-plain-wordmark"></i> <i class="devicon-bootstrap-plain-wordmark colored"></i> <i class="devicon-css3-plain-wordmark colored"></i> <i class="devicon-sass-original colored"></i>
+		<div class="project-section">
+			<div class="row">
+				<div class="col-lg-4 order-lg-8 text-center">
+					<h2 class="font-weight-bold">Blackjack</h2>
+					<p class="text-justify mx-4" id="projectText">A Simpsons themed blackjack game that allows you to play against the dealer. This game was built using JavaScript and jQuery.</p><a class="btn btn-primary text-white" href="https://dhamann1.github.io/Blackjack/" target="_blank">Visit App</a> <a class="btn btn-primary text-white" href="https://github.com/dhamann1/Blackjack" target="_blank">GitHub Repo</a>
 				</div>
-				<div class="tech">
-					<h2>Code</h2><i class="devicon-javascript-plain colored"></i> <i class="devicon-react-original-wordmark colored"></i> <i class="devicon-rails-plain-wordmark colored"></i> <i class="devicon-nodejs-plain colored"></i> <i class="devicon-express-original colored"></i>
-				</div>
-				<div class="tech">
-					<h2>Databases</h2><i class="devicon-postgresql-plain-wordmark colored"></i> <i class="devicon-mongodb-plain-wordmark colored"></i>
-				</div>
+				<div class="col-lg-8 order-lg-4"><img src="https://imgur.com/ohZ3co4.png"></div>
 			</div>
 		</div>
-		
-		<div class="row" id="pTitle">
-			<div class="col-md-2 column">
-				<h2 class="pTitle">Projects</h2>
-			</div>
-		</div>
-		<section id="projects">
-			<div class="user-projects">
-				<div class="images-right"><img alt="mountains" src="https://i.imgur.com/8TDd2N6.png"></div>
-				<div class="contents">
-					<h3>FilmPicks</h3>
-					<p>FilmPicks is an application that allows users to search and favorite movies through The Movie Database (TMDb) API. The app was built using the MERN (MongoDB, Express, React, Node.js) Stack.</p><a class="project-link" href="https://film-picks.herokuapp.com/"><span><i aria-hidden="true" class="fa fa-rocket fa-1x"></i></span> View</a> <a class="project-link" href="https://github.com/dhamann1/FilmPicks"><span><i aria-hidden="true" class="fa fa-github fa-1x"></i></span> GitHub</a>
-				</div>
-			</div>
-			<div class="user-projects">
-				<div class="images-right"><img alt="mountains" src="https://imgur.com/O1dePLt.png"></div>
-				<div class="contents">
-					<h3>WeMeet</h3>
-					<p>WeMeet is an application that allows people to create and join events based on certain interests and discuss with other users about the event. WeMeet was built using Ruby on Rails and Bootstrap.</p><a class="project-link" href="https://murmuring-brook-31535.herokuapp.com/events"><span><i aria-hidden="true" class="fa fa-rocket fa-1x"></i></span> View</a> <a class="project-link" href="https://github.com/dhamann1/WeMeet"><span><i aria-hidden="true" class="fa fa-github fa-1x"></i></span> GitHub</a>
-				</div>
-			</div>
-			<div class="user-projects">
-				<div class="images-right"><img alt="mountains" src="https://imgur.com/0Dx5WT6.png"></div>
-				<div class="contents">
-					<h3>Don't Think, Just Eat</h3>
-					<p>Don't Think, Just Eat is an application allows users to select a restaurant within their specified location. Users are able to bookmark their favorite restaurants they've visited and save notes for future reference. The app utilizes both the Yelp Fusion API and Google Maps API. Don't Think, Just Eat was built using MongoDB, Express, Node, Javascript and Materialize.</p><a class="project-link" href="https://dtje.herokuapp.com/"><span><i aria-hidden="true" class="fa fa-rocket fa-1x"></i></span> View</a> <a class="project-link" href="https://github.com/dhamann1/dtje"><span><i aria-hidden="true" class="fa fa-github fa-1x"></i></span> GitHub</a>
-				</div>
-			</div>
-			<div class="user-projects">
-				<div class="images-right"><img alt="mountains" src="https://imgur.com/ohZ3co4.png"></div>
-				<div class="contents">
-					<h3>Blackjack</h3>
-					<p>A Simpsons themed blackjack game that allows you to play against the dealer. This game was built using JavaScript and jQuery.</p><a class="project-link" href="https://dhamann1.github.io/Blackjack/"><span><i aria-hidden="true" class="fa fa-rocket fa-1x"></i></span> View</a> <a class="project-link" href="https://github.com/dhamann1/Blackjack"><span><i aria-hidden="true" class="fa fa-github fa-1x"></i></span> GitHub</a>
-				</div>
-			</div>
-		</section>
 	</div>
-	<nav class="navbar sticky-bottom navbar-light bg-light">
-		<a class="navbar-brand">© 2017 Dean Hamann</a>
-	</nav>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
-	</script> 
+	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-	</script> 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
 	</script>
 </body>
 </html>
