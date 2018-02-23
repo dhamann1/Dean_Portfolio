@@ -105,3 +105,22 @@ h2 {
 	color: #93C54B;
 	cursor: pointer;
 }
+
+#textBox{
+	margin-bottom: 25px;
+}
+
+.techUsed {
+	margin-bottom: 20px; 
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 15px;
+  margin: 5px 0;
+  height: 25px;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
